@@ -342,6 +342,7 @@ export async function generate(
         allDefinitions.map((def) => ({
             namedExports: [def.name],
             moduleSpecifier: `./definitions/${def.name}${mergedOptions.esm ? ".js" : ""}`,
+            isTypeOnly: true,
         }))
     );
     if (!mergedOptions.emitDefinitionsOnly) {
@@ -349,20 +350,27 @@ export async function generate(
         // https://ts-morph.com/details/exports
         indexFile.addExportDeclarations([
             {
-                namedExports: ["createClientAsync", `${parsedWsdl.name}Client`],
+                namedExports: ["createClientAsync"],
                 moduleSpecifier: `./client${mergedOptions.esm ? ".js" : ""}`,
+            },
+            {
+                namedExports: [`${parsedWsdl.name}Client`],
+                moduleSpecifier: `./client${mergedOptions.esm ? ".js" : ""}`,
+                isTypeOnly: true,
             },
         ]);
         indexFile.addExportDeclarations(
             parsedWsdl.services.map((service) => ({
                 namedExports: [service.name],
                 moduleSpecifier: `./services/${service.name}${mergedOptions.esm ? ".js" : ""}`,
+                isTypeOnly: true,
             }))
         );
         indexFile.addExportDeclarations(
             parsedWsdl.ports.map((port) => ({
                 namedExports: [port.name],
                 moduleSpecifier: `./ports/${port.name}${mergedOptions.esm ? ".js" : ""}`,
+                isTypeOnly: true,
             }))
         );
     }
