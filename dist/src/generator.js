@@ -78,6 +78,7 @@ function addSafeImport(imports, moduleSpecifier, namedImport) {
         imports.push({
             moduleSpecifier: moduleSpecifier,
             namedImports: [{ name: namedImport }],
+            isTypeOnly: true,
         });
     }
 }
@@ -266,7 +267,7 @@ function generate(parsedWsdl, outDir, options) {
                     namedImports: [
                         { name: "Client", alias: "SoapClient" },
                         { name: "createClientAsync", alias: "soapCreateClientAsync" },
-                        { name: "IExOptions", alias: "ISoapExOptions" },
+                        { name: "IExOptions", alias: "ISoapExOptions", isTypeOnly: true },
                     ],
                 });
                 clientFile.addImportDeclarations(clientImports);
