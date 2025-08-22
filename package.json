@@ -75,7 +75,7 @@
         "sanitize-filename": "^1.6.3",
         "soap": "^1.1.0",
         "supports-color": "^10.2.0",
-        "ts-morph": "^23.0.0",
+        "ts-morph": "^26.0.0",
         "yargs": "^18.0.0"
     },
     "directories": {
