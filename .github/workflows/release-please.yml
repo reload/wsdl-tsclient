@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v5
 
       - if: ${{ github.event.inputs.publish-release == 'true' || steps.release.outputs.release_created }}
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v4
 
       - if: ${{ github.event.inputs.publish-release == 'true' || steps.release.outputs.release_created }}
         env:
