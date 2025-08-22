@@ -3,7 +3,7 @@ import util from "util";
 const exec = util.promisify(require("child_process").exec);
 
 export async function typecheck(pathToIndex: string) {
-    await exec(`tsc ${pathToIndex} --noEmit`, {
+    await exec(`tsc ${pathToIndex} --noEmit --esModuleInterop`, {
         env: process.env,
     });
 }
