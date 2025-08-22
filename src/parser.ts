@@ -84,7 +84,7 @@ function findElementSchemaType(definitions: DefinitionsElement, element: Element
 function findPropSchemaType(
     definitions: DefinitionsElement,
     parentElement: ElementSchema | undefined,
-    propName: string
+    propName: string,
 ): ElementSchema | undefined {
     if (!parentElement?.children) return undefined;
     for (const child of parentElement.children) {
@@ -137,7 +137,7 @@ function parseDefinition(
     stack: string[],
     visitedDefs: Array<VisitedDefinition>,
     definitions: DefinitionsElement,
-    schema: ElementSchema | undefined
+    schema: ElementSchema | undefined,
 ): Definition {
     const defName = changeCase(name, { pascalCase: true });
 
@@ -226,7 +226,7 @@ function parseDefinition(
                                     [...stack, propName],
                                     visitedDefs,
                                     definitions,
-                                    propSchema
+                                    propSchema,
                                 );
                                 definition.properties.push({
                                     kind: "REFERENCE",
@@ -237,7 +237,7 @@ function parseDefinition(
                                 });
                             } catch (err) {
                                 const e = new Error(
-                                    `Error while parsing Subdefinition for '${stack.join(".")}.${name}'`
+                                    `Error while parsing Subdefinition for '${stack.join(".")}.${name}'`,
                                 );
                                 throw e;
                             }
@@ -289,7 +289,7 @@ function parseDefinition(
                                 [...stack, propName],
                                 visitedDefs,
                                 definitions,
-                                propSchema
+                                propSchema,
                             );
                             definition.properties.push({
                                 kind: "REFERENCE",
@@ -376,7 +376,7 @@ export async function parseWsdl(wsdlPath: string, options: Partial<ParserOptions
                                     // TODO: if `$type` not defined, inline type into function declartion (do not create definition file) - wsimport
                                     const typeName = inputMessage.element.$type ?? inputMessage.element.$name;
                                     const type = parsedWsdl.findDefinition(
-                                        inputMessage.element.$type ?? inputMessage.element.$name
+                                        inputMessage.element.$type ?? inputMessage.element.$name,
                                     );
                                     const schema = mergedOptions.useWsdlTypeNames
                                         ? findElementSchemaType(wsdl.definitions, inputMessage.element)
@@ -391,7 +391,7 @@ export async function parseWsdl(wsdlPath: string, options: Partial<ParserOptions
                                             [typeName],
                                             visitedDefinitions,
                                             wsdl.definitions,
-                                            schema
+                                            schema,
                                         );
                                 } else if (inputMessage.parts) {
                                     const type = parsedWsdl.findDefinition(requestParamName);
@@ -405,11 +405,11 @@ export async function parseWsdl(wsdlPath: string, options: Partial<ParserOptions
                                             [requestParamName],
                                             visitedDefinitions,
                                             wsdl.definitions,
-                                            undefined
+                                            undefined,
                                         );
                                 } else {
                                     Logger.debug(
-                                        `Method '${serviceName}.${portName}.${methodName}' doesn't have any input defined`
+                                        `Method '${serviceName}.${portName}.${methodName}' doesn't have any input defined`,
                                     );
                                 }
                             }
@@ -438,7 +438,7 @@ export async function parseWsdl(wsdlPath: string, options: Partial<ParserOptions
                                             [typeName],
                                             visitedDefinitions,
                                             wsdl.definitions,
-                                            schema
+                                            schema,
                                         );
                                 } else {
                                     const type = parsedWsdl.findDefinition(responseParamName);
@@ -452,7 +452,7 @@ export async function parseWsdl(wsdlPath: string, options: Partial<ParserOptions
                                             [responseParamName],
                                             visitedDefinitions,
                                             wsdl.definitions,
-                                            undefined
+                                            undefined,
                                         );
                                 }
                             }
@@ -489,7 +489,7 @@ export async function parseWsdl(wsdlPath: string, options: Partial<ParserOptions
                 parsedWsdl.ports = allPorts;
 
                 return resolve(parsedWsdl);
-            }
+            },
         );
     });
 }

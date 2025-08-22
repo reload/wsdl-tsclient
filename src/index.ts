@@ -85,7 +85,7 @@ export const defaultOptions: Options = {
 export async function parseAndGenerate(
     wsdlPath: string,
     outDir: string,
-    options: Partial<Options> = {}
+    options: Partial<Options> = {},
 ): Promise<void> {
     const mergedOptions: Options = {
         ...defaultOptions,
