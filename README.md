@@ -17,24 +17,24 @@ and
 [openapi-generator](https://github.com/OpenAPITools/openapi-generator).
 
 *NOTE:* Add [soap](https://www.npmjs.com/package/soap) to your npm
-runtime dependencies (`npm i soap`).
+runtime dependencies (`npm install soap`).
 
 ## Install
 
 ```sh
-npm i wsdl-tsclient
+npm install @reloaddk/wsdl-tsclient --save-dev
 ```
 
 or install it with `-g` to have CLI globally available.
 
 ```sh
-npm i -g wsdl-tsclient
+npm install -g @reloaddk/wsdl-tsclient
 ```
 
 or you can use `npx` to run it without installing
 
 ```sh
-npx wsdl-tsclient ./path/to/wsdl.wsdl -o ./generated/
+npx @reloaddk/wsdl-tsclient ./path/to/wsdl.wsdl -o ./generated/
 ```
 
 ## Usage
@@ -54,7 +54,7 @@ code) for node-soap, you can pass `--emitDefinitionsOnly` param.
 
 you can also use `npx`
 
-`npx wsdl-tsclient ./soap.wsdl -o ./generated`
+`npx @reloaddk/wsdl-tsclient ./soap.wsdl -o ./generated`
 
 ```bash
 wsdl-tsclient [options] [path]
@@ -91,7 +91,7 @@ Examples:
 ### Generate client programmatically
 
 ```typescript
-import { generateClient } from "wsdl-tsclient";
+import { generateClient } from "@reloaddk/wsdl-tsclient";
 
 parseAndGenerate("./path/to/MyWsdl.wsdl", "./generated/");
 ```
@@ -99,7 +99,7 @@ parseAndGenerate("./path/to/MyWsdl.wsdl", "./generated/");
 ### Using generated client in your project
 
 *Note:* Make sure you have [soap](https://www.npmjs.com/package/soap)
-package in your runtime dependencies (`npm i soap`)
+package in your runtime dependencies (`npm install soap`)
 
 ```typescript
 import { createClientAsync } from "./generated/MyWsdl";
@@ -131,7 +131,7 @@ for more information about the use of the client, read more about [soap](https:/
 ## Develpoment
 
 - Clone the repository
-- Install dependencies `npm i`
+- Install dependencies `npm install`
 - Run tests `npm test`
 
 ## License
