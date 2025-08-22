@@ -30,7 +30,7 @@ const defaultOptions: GeneratorOptions = {
 function addSafeImport(
     imports: OptionalKind<ImportDeclarationStructure>[],
     moduleSpecifier: string,
-    namedImport: string
+    namedImport: string,
 ) {
     if (!imports.find((imp) => imp.moduleSpecifier == moduleSpecifier)) {
         imports.push({
@@ -57,7 +57,7 @@ function createProperty(
     type: string,
     doc: string,
     isArray: boolean,
-    optional = true
+    optional = true,
 ): PropertySignatureStructure {
     return {
         kind: StructureKind.PropertySignature,
@@ -74,7 +74,7 @@ function generateDefinitionFile(
     defDir: string,
     stack: string[],
     generated: Definition[],
-    options: GeneratorOptions
+    options: GeneratorOptions,
 ): void {
     const defName = definition.name;
     const defFilePath = path.join(defDir, `${defName}.ts`);
@@ -132,7 +132,7 @@ function generateDefinitionFile(
 export async function generate(
     parsedWsdl: ParsedWsdl,
     outDir: string,
-    options: Partial<GeneratorOptions>
+    options: Partial<GeneratorOptions>,
 ): Promise<void> {
     const mergedOptions: GeneratorOptions = {
         ...defaultOptions,
@@ -176,18 +176,18 @@ export async function generate(
                             defDir,
                             [method.paramDefinition.name],
                             allDefinitions,
-                            mergedOptions
+                            mergedOptions,
                         );
                         addSafeImport(
                             clientImports,
                             `./definitions/${method.paramDefinition.name}${mergedOptions.esm ? ".js" : ""}`,
-                            method.paramDefinition.name
+                            method.paramDefinition.name,
                         );
                     }
                     addSafeImport(
                         portImports,
                         `../definitions/${method.paramDefinition.name}${mergedOptions.esm ? ".js" : ""}`,
-                        method.paramDefinition.name
+                        method.paramDefinition.name,
                     );
                 }
                 if (method.returnDefinition !== null) {
@@ -199,18 +199,18 @@ export async function generate(
                             defDir,
                             [method.returnDefinition.name],
                             allDefinitions,
-                            mergedOptions
+                            mergedOptions,
                         );
                         addSafeImport(
                             clientImports,
                             `./definitions/${method.returnDefinition.name}${mergedOptions.esm ? ".js" : ""}`,
-                            method.returnDefinition.name
+                            method.returnDefinition.name,
                         );
                     }
                     addSafeImport(
                         portImports,
                         `../definitions/${method.returnDefinition.name}${mergedOptions.esm ? ".js" : ""}`,
-                        method.returnDefinition.name
+                        method.returnDefinition.name,
                     );
                 }
                 // TODO: Deduplicate PortMethods
@@ -344,7 +344,7 @@ export async function generate(
             namedExports: [def.name],
             moduleSpecifier: `./definitions/${def.name}${mergedOptions.esm ? ".js" : ""}`,
             isTypeOnly: true,
-        }))
+        })),
     );
     if (!mergedOptions.emitDefinitionsOnly) {
         // TODO: Aggregate all exports during declarations generation
@@ -365,14 +365,14 @@ export async function generate(
                 namedExports: [service.name],
                 moduleSpecifier: `./services/${service.name}${mergedOptions.esm ? ".js" : ""}`,
                 isTypeOnly: true,
-            }))
+            })),
         );
         indexFile.addExportDeclarations(
             parsedWsdl.ports.map((port) => ({
                 namedExports: [port.name],
                 moduleSpecifier: `./ports/${port.name}${mergedOptions.esm ? ".js" : ""}`,
                 isTypeOnly: true,
-            }))
+            })),
         );
     }
 
