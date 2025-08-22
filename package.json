@@ -63,5 +63,10 @@
         "supports-color": "^8.1.1",
         "ts-morph": "^23.0.0",
         "yargs": "^17.7.2"
-    }
+    },
+    "directories": {
+        "doc": "docs",
+        "test": "test"
+    },
+    "types": "./dist/src/index.d.ts"
 }
