@@ -57,7 +57,7 @@
     "devDependencies": {
         "@types/node": "^24.3.0",
         "@types/supports-color": "^10.0.0",
-        "@types/tape": "^5.6.4",
+        "@types/tape": "^5.8.1",
         "@types/yargs": "^17.0.33",
         "@typescript-eslint/eslint-plugin": "^5.62.0",
         "@typescript-eslint/parser": "^5.62.0",
@@ -65,7 +65,7 @@
         "eslint-plugin-prettier": "^4.2.5",
         "prettier": "^2.6.2",
         "tap-spec": "^5.0.0",
-        "tape": "^5.8.1",
+        "tape": "^5.9.0",
         "ts-node": "^10.9.2",
         "typescript": "^5.9.2"
     },
