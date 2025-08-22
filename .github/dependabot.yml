@@ -7,3 +7,8 @@ updates:
     schedule:
       interval: monthly
       timezone: Europe/Copenhagen
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+      timezone: Europe/Copenhagen
