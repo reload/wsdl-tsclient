@@ -2,6 +2,69 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.0](https://github.com/reload/wsdl-tsclient/compare/v1.7.1...v1.8.0) (2025-08-22)
+
+
+### Features
+
+* add dist ([9992dad](https://github.com/reload/wsdl-tsclient/commit/9992dad79d3f304501e59a88ed088ac148b68c54))
+* add esm option ([bde0490](https://github.com/reload/wsdl-tsclient/commit/bde049045da8493945f62d373b11c8ca8643e6c6))
+* bump new version ([959b8bd](https://github.com/reload/wsdl-tsclient/commit/959b8bdf21d963a43ad9715b3cc1ee8ed947b2cc))
+* **cli:** add option for modelPropertyNaming ([8670d29](https://github.com/reload/wsdl-tsclient/commit/8670d29a8f98815a74d442595b7d7d3ebdb5388c))
+* eslint fixes plus other minor improvements ([c530e61](https://github.com/reload/wsdl-tsclient/commit/c530e61a22f56b6f4e505893189f2a6467f32975))
+* export as type + pack package ([5dec011](https://github.com/reload/wsdl-tsclient/commit/5dec011db76e79868587bad3797441da7c17df9b))
+* more isTypeOnly for clients ([cd0b125](https://github.com/reload/wsdl-tsclient/commit/cd0b125a7f3b53a5e414440ac4d1a054d28a38e1))
+* new build ([996e2e1](https://github.com/reload/wsdl-tsclient/commit/996e2e14c9e50c61bde9d45622964a10f208b2b0))
+* new parameter --useWsdlTypeNames to generate interface names from wsdl type names ([98a9011](https://github.com/reload/wsdl-tsclient/commit/98a9011179b0c59d45fd019fa1c41d924cdfb891))
+* new parameter --useWsdlTypeNames to generate interface names from wsdl type names ([db94bcc](https://github.com/reload/wsdl-tsclient/commit/db94bcc47e204d8c887cdecc59a1732f20c9bfe6))
+* new version ([a5d522a](https://github.com/reload/wsdl-tsclient/commit/a5d522ac07e03efb4742dceb030fcf68b5779112))
+
+
+### Bug Fixes
+
+* Add Typescript declaration ([84b149a](https://github.com/reload/wsdl-tsclient/commit/84b149afd2dc09affb7faa73a2463444b98047f8))
+* Add Typescript declearation ([d6cc3c9](https://github.com/reload/wsdl-tsclient/commit/d6cc3c9cbcb3a8ec1ec1991982faa44de963814c))
+* No reference to built files ([1e95dca](https://github.com/reload/wsdl-tsclient/commit/1e95dcae97f267337dc28f86f25850a160ddbf11))
+* No reference to built files ([4343968](https://github.com/reload/wsdl-tsclient/commit/43439685e040769f0451a291647ea7bb22a7a870))
+* update esm generator ([7b78863](https://github.com/reload/wsdl-tsclient/commit/7b78863dd090db2e14659fa5e503112518eccbfe))
+* wire --esm cli flag to options ([60b0d20](https://github.com/reload/wsdl-tsclient/commit/60b0d20d60f8bd6f5aacd9f12c1e70fa7a9bb958))
+* wire --esm cli flag to options ([3fd9a16](https://github.com/reload/wsdl-tsclient/commit/3fd9a167e8119cbcd4657c21c063b78e02db4bdf))
+
+
+### Dependency updates
+
+* update ([5a6deb6](https://github.com/reload/wsdl-tsclient/commit/5a6deb6d6bfa01243ac7f8e49386070d994ca7c8))
+* update 2 ([9190a04](https://github.com/reload/wsdl-tsclient/commit/9190a046b51ad965ec71e8a973aa53271b2f7585))
+* update 3 ([2ea3280](https://github.com/reload/wsdl-tsclient/commit/2ea32800307e098cfe7fc3c81d22442d06761e9d))
+
+
+### Documentation
+
+* mention 1.7.0 in changelog ([5058989](https://github.com/reload/wsdl-tsclient/commit/50589893cc4dc08b759ff0f90cce43fdea240542))
+* release 1.5.0 ([9d870a6](https://github.com/reload/wsdl-tsclient/commit/9d870a6f66fdd1f452c4c785b9acee4ef9c8e736))
+* update ([f4f244f](https://github.com/reload/wsdl-tsclient/commit/f4f244f035f5f5ecd954f19ac05820645a619aca))
+* update CLI options ([1ee5bc0](https://github.com/reload/wsdl-tsclient/commit/1ee5bc052042978a46a6b9dc9629467be787872c))
+
+
+### Maintenance
+
+* add missing 1.6.0 changelog ([ab482ef](https://github.com/reload/wsdl-tsclient/commit/ab482efd03b63f502712a42f5fd054a53d972ba0))
+* add release please with provenance ([49dc863](https://github.com/reload/wsdl-tsclient/commit/49dc86324cd946a07250334292e94f41ba355333))
+* add release-please with provenance ([16ff043](https://github.com/reload/wsdl-tsclient/commit/16ff043a9a3c33cb5cf8d18ea1790410c0c7fc7a))
+* inline variable ([34ab146](https://github.com/reload/wsdl-tsclient/commit/34ab1466d28288727c3daeff55f1b88f617207a2))
+* move @types/yargs-parser to devDeps ([56dadd8](https://github.com/reload/wsdl-tsclient/commit/56dadd8deee4a34dbb1f5e1116880350412639be))
+* remove todo ([3ce445d](https://github.com/reload/wsdl-tsclient/commit/3ce445d84200b988addf1e4a7efec937e05b6a75))
+* remove travisci ([59757f0](https://github.com/reload/wsdl-tsclient/commit/59757f027999f8766f2217b6e78fc2350c1df39a))
+* remove travisci badge ([b3341ee](https://github.com/reload/wsdl-tsclient/commit/b3341ee08340cb464296e26eafc847a04cc14fbc))
+* update args desc ([bdd3e51](https://github.com/reload/wsdl-tsclient/commit/bdd3e51836ab5dc24acc1243d3b6ae3bce639d8c))
+* update release ([ac61d24](https://github.com/reload/wsdl-tsclient/commit/ac61d245b4ee9dd076732ea46e89a4d1e1aad5c2))
+* update setup-node ([60758af](https://github.com/reload/wsdl-tsclient/commit/60758af3695ae04c34410c073ba6fdc7e0d858a3))
+
+
+### Tests
+
+* 2 ([2fbde51](https://github.com/reload/wsdl-tsclient/commit/2fbde51525e4e55ca95af18d2c3aeb3f31822be7))
+
 ## [1.7.0] - 2024-07-15
 
 - [feat(cli): add option for modelPropertyNaming](https://github.com/dderevjanik/wsdl-tsclient/commit/8670d29a8f98815a74d442595b7d7d3ebdb5388c) `--modelPropertyNaming=` 
