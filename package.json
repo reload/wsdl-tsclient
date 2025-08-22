@@ -67,7 +67,7 @@
         "tap-spec": "^5.0.0",
         "tape": "^5.8.1",
         "ts-node": "^10.9.2",
-        "typescript": "^5.5.3"
+        "typescript": "^5.9.2"
     },
     "dependencies": {
         "camelcase": "^6.3.0",
