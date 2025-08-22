@@ -35,6 +35,20 @@
         "typescript"
     ],
     "author": "Daniel Derevjanik <daniel.derevjanik@gmail.com>",
+    "contributers": [
+	{
+	    "name": "Daniel Derevjanik",
+	    "email": "daniel.derevjanik@gmail.com"
+	},
+	{
+	    "name": "Sander Hurlen",
+	    "email": "sander.hurlen@icloud.com"
+	},
+	{
+	    "name": "Arne Jørgensen",
+	    "email": "arne@reload.dk"
+	}
+    ],
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/reload/wsdl-tsclient/issues"
