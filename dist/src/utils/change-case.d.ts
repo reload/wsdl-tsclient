@@ -1,3 +1,3 @@
-import camelcase from "camelcase";
+import * as camelcase from "camelcase";
 export declare function changeCase(input: string, options?: camelcase.Options): string;
 //# sourceMappingURL=change-case.d.ts.map

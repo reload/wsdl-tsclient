@@ -46,8 +46,8 @@ test(target, async t => {
         t.equal(existsSync(`${outdir}/listparameter/definitions/GetFlexiTimecodeResult.ts`), true);
         t.equal(existsSync(`${outdir}/listparameter/definitions/GetFreeDimInformation.ts`), true);
         t.equal(existsSync(`${outdir}/listparameter/definitions/GetFreeDimInformationResponse.ts`), true);
-        t.equal(existsSync(`${outdir}/listparameter/definitions/GetIDsParameters.ts`), true);
-        t.equal(existsSync(`${outdir}/listparameter/definitions/GetIDsParametersResponse.ts`), true);
+        t.equal(existsSync(`${outdir}/listparameter/definitions/GetIdsParameters.ts`), true);
+        t.equal(existsSync(`${outdir}/listparameter/definitions/GetIdsParametersResponse.ts`), true);
         t.equal(existsSync(`${outdir}/listparameter/definitions/GetResourceIdFromLoggedInUser.ts`), true);
         t.equal(existsSync(`${outdir}/listparameter/definitions/GetResourceIdFromLoggedInUserResponse.ts`), true);
         t.equal(existsSync(`${outdir}/listparameter/definitions/GetResourceIdFromLoggedInUserResult.ts`), true);
