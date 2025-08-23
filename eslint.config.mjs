@@ -1,4 +1,4 @@
-import { defineConfig } from "eslint/config";
+import { defineConfig, globalIgnores } from "eslint/config";
 import typescriptEslint from "@typescript-eslint/eslint-plugin";
 import prettier from "eslint-plugin-prettier";
 import globals from "globals";
@@ -16,7 +16,7 @@ const compat = new FlatCompat({
     allConfig: js.configs.all
 });
 
-export default defineConfig([{
+export default defineConfig([globalIgnores(["test/generated/", "test/resources/", "dist/"]), {
     extends: compat.extends("eslint:recommended", "plugin:@typescript-eslint/recommended"),
 
     plugins: {
