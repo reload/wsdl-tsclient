@@ -13,35 +13,38 @@ const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
     baseDirectory: __dirname,
     recommendedConfig: js.configs.recommended,
-    allConfig: js.configs.all
+    allConfig: js.configs.all,
 });
 
-export default defineConfig([globalIgnores(["test/generated/", "test/resources/", "dist/"]), {
-    extends: compat.extends("eslint:recommended", "plugin:@typescript-eslint/recommended"),
+export default defineConfig([
+    globalIgnores(["test/generated/", "test/resources/", "dist/"]),
+    {
+        extends: compat.extends("eslint:recommended", "plugin:@typescript-eslint/recommended"),
 
-    plugins: {
-        "@typescript-eslint": typescriptEslint,
-        prettier,
-    },
-
-    languageOptions: {
-        globals: {
-            ...globals.browser,
+        plugins: {
+            "@typescript-eslint": typescriptEslint,
+            prettier,
         },
 
-        parser: tsParser,
-        ecmaVersion: 12,
-        sourceType: "module",
-    },
+        languageOptions: {
+            globals: {
+                ...globals.browser,
+            },
 
-    rules: {
-        "prettier/prettier": "warn",
-        "@typescript-eslint/no-explicit-any": 0,
-        "@typescript-eslint/no-unused-vars": 0,
-        "@typescript-eslint/no-var-requires": 0,
-        "@typescript-eslint/ban-types": 0,
-        "@typescript-eslint/no-namespace": 0,
-        "@typescript-eslint/explicit-module-boundary-types": 0,
-        "@typescript-eslint/no-empty-interface": 0,
+            parser: tsParser,
+            ecmaVersion: 12,
+            sourceType: "module",
+        },
+
+        rules: {
+            "prettier/prettier": "warn",
+            "@typescript-eslint/no-explicit-any": 0,
+            "@typescript-eslint/no-unused-vars": 0,
+            "@typescript-eslint/no-var-requires": 0,
+            "@typescript-eslint/ban-types": 0,
+            "@typescript-eslint/no-namespace": 0,
+            "@typescript-eslint/explicit-module-boundary-types": 0,
+            "@typescript-eslint/no-empty-interface": 0,
+        },
     },
-}]);
+]);
