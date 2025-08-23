@@ -1,5 +1,20 @@
 # WSDL TSClient
 
+> [!NOTE]
+>
+> This project is a fork of
+> [sanderhurlen/wsdl-tsclient](https://github.com/sanderhurlen/wsdl-tsclient)
+> which in turn is a fork of
+> [dderevjanik/wsdl-tsclient](https://github.com/dderevjanik/wsdl-tsclient).
+>
+> The original project appears unmaintained. @sanderhurlen's fork has
+> a fix for
+> [#96](https://github.com/dderevjanik/wsdl-tsclient/issues/96) which
+> we needed. But the fork isn't updated otherwise.
+>
+> We forked it to update dependencies and have added @dependabot to
+> keep them up to date going forward.
+
 ![license](https://img.shields.io/npm/l/@reloaddk/wsdl-tsclient)
 [![npm-version](https://img.shields.io/npm/v/@reloaddk/wsdl-tsclient)](https://npmjs.com/package/@reloaddk/wsdl-tsclient)
 
