@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.1](https://github.com/reload/wsdl-tsclient/compare/v1.8.0...v1.8.1) (2025-08-23)
+
+
+### Bug Fixes
+
+* Remove dist folder from version control ([0a2ce63](https://github.com/reload/wsdl-tsclient/commit/0a2ce6358b4269c71f4c8e161e0cf3409ffe0329))
+* Remove dist folder from version control ([f5c0e1d](https://github.com/reload/wsdl-tsclient/commit/f5c0e1db2bc2b92ec2dc8f975de9a87e074d0a0f))
+
+
+### Maintenance
+
+* Add CODEOWNERS ([8ec1f7b](https://github.com/reload/wsdl-tsclient/commit/8ec1f7b0f31d0abc9d17e2ad3579f96e9d0159f8))
+* Add CODEOWNERS ([055dfe2](https://github.com/reload/wsdl-tsclient/commit/055dfe20fdbf87f33a479842df73cda74884d864))
+* Fix linting issues on tests etc. ([d6afa9f](https://github.com/reload/wsdl-tsclient/commit/d6afa9f1f8412ed7e0938ad978dcfccdf88e6a31))
+* Fix linting issues on tests etc. ([e56d254](https://github.com/reload/wsdl-tsclient/commit/e56d2546cad7554c8972eb1648f7a3afbc24498f))
+* Fix linting issues on tests etc. ([711f2f7](https://github.com/reload/wsdl-tsclient/commit/711f2f75fefc448eaa1a7cdfa23ded478ca581ff))
+* Run eslint on everything except generated code ([d6afa9f](https://github.com/reload/wsdl-tsclient/commit/d6afa9f1f8412ed7e0938ad978dcfccdf88e6a31))
+* Run eslint on everything except generated code ([e56d254](https://github.com/reload/wsdl-tsclient/commit/e56d2546cad7554c8972eb1648f7a3afbc24498f))
+* Run eslint on everything except generated code ([711f2f7](https://github.com/reload/wsdl-tsclient/commit/711f2f75fefc448eaa1a7cdfa23ded478ca581ff))
+
 ## [1.8.0](https://github.com/reload/wsdl-tsclient/compare/v1.7.1...v1.8.0) (2025-08-23)
 
 
