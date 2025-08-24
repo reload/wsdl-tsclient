@@ -7,6 +7,7 @@ import packageJson from "../package.json";
 
 const conf = yargs(process.argv.slice(2))
     .version(packageJson.version)
+    .alias("version", "v")
     .usage("wsdl-tsclient [options] [path]")
     .example("", "wsdl-tsclient file.wsdl -o ./generated/")
     .example("", "wsdl-tsclient ./res/**/*.wsdl -o ./generated/")
@@ -14,10 +15,6 @@ const conf = yargs(process.argv.slice(2))
     .option("o", {
         type: "string",
         description: "Output directory for generated TypeScript client",
-    })
-    .option("version", {
-        alias: "v",
-        type: "boolean",
     })
     .option("emitDefinitionsOnly", {
         type: "boolean",
