@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.2](https://github.com/reload/wsdl-tsclient/compare/v1.8.1...v1.8.2) (2025-08-24)
+
+
+### Bug Fixes
+
+* version argument warning ([a78dfc9](https://github.com/reload/wsdl-tsclient/commit/a78dfc947323e4399145256814179a1f557b08f4))
+* version argument warning ([27ea826](https://github.com/reload/wsdl-tsclient/commit/27ea82630e76b747c4da5639f3c40335197f985e))
+
 ## [1.8.1](https://github.com/reload/wsdl-tsclient/compare/v1.8.0...v1.8.1) (2025-08-23)
 
 
