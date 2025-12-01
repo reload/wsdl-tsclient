@@ -32,7 +32,7 @@ jobs:
           config-file: .github/release-please-config.json
 
       - if: ${{ github.event.inputs.publish-release == 'true' || steps.release.outputs.release_created }}
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - if: ${{ github.event.inputs.publish-release == 'true' || steps.release.outputs.release_created }}
         uses: actions/setup-node@v6
