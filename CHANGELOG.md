@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.9](https://github.com/reload/wsdl-tsclient/compare/v1.8.8...v1.8.9) (2026-01-01)
+
+
+### Maintenance
+
+* **deps-dev:** bump @eslint/eslintrc from 3.3.1 to 3.3.3 ([94525a7](https://github.com/reload/wsdl-tsclient/commit/94525a7a7768761081594666510e4c6ad8c66461))
+* **deps-dev:** bump @eslint/eslintrc from 3.3.1 to 3.3.3 ([99cacf4](https://github.com/reload/wsdl-tsclient/commit/99cacf488209d4c6bf55f6afdf9260a0225f3c04))
+* **deps-dev:** bump @types/node from 24.10.1 to 25.0.3 ([a85c068](https://github.com/reload/wsdl-tsclient/commit/a85c068b94f4713f9df0c5b0ebdc0f024269eb36))
+* **deps-dev:** bump @types/node from 24.10.1 to 25.0.3 ([053ae77](https://github.com/reload/wsdl-tsclient/commit/053ae774cc3e33f8d368e8027414cccceceaec38))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([1335591](https://github.com/reload/wsdl-tsclient/commit/1335591adafa12e450e89b8c88354c0e6ca38fdf))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 8.48.0 to 8.51.0 ([cf91c1e](https://github.com/reload/wsdl-tsclient/commit/cf91c1ea82c20de1cba9cab90aef27e2991027bf))
+* **deps-dev:** bump eslint from 9.39.1 to 9.39.2 ([4a24a7d](https://github.com/reload/wsdl-tsclient/commit/4a24a7d16f2fa56806ad491cb698bea5a1d1538f))
+* **deps-dev:** bump eslint from 9.39.1 to 9.39.2 ([4d03f81](https://github.com/reload/wsdl-tsclient/commit/4d03f8131d2d5525a62b54f3420e6f847c5489b7))
+* **deps-dev:** bump prettier from 3.7.3 to 3.7.4 ([193404b](https://github.com/reload/wsdl-tsclient/commit/193404b183ef9760d1862d473a58154f6a7aa664))
+* **deps-dev:** bump prettier from 3.7.3 to 3.7.4 ([870b3d9](https://github.com/reload/wsdl-tsclient/commit/870b3d9f6f73dd000f010fdf5f95de046ef475fc))
+* **deps:** bump soap from 1.6.0 to 1.6.1 ([0a077e6](https://github.com/reload/wsdl-tsclient/commit/0a077e6fa7020f238f97218fe5471d4aaf528d01))
+* **deps:** bump soap from 1.6.0 to 1.6.1 ([8ae1224](https://github.com/reload/wsdl-tsclient/commit/8ae122436daee0be37207dac9de1eafe0f3fc1ad))
+* **deps:** bump ts-morph from 27.0.0 to 27.0.2 ([b24b7ec](https://github.com/reload/wsdl-tsclient/commit/b24b7eca7c6a62ba0d10b3d0256df5d68620268b))
+* **deps:** bump ts-morph from 27.0.0 to 27.0.2 ([0e16f9e](https://github.com/reload/wsdl-tsclient/commit/0e16f9e90e173fa678c1af8e9ae6d49ee598eba3))
+
 ## [1.8.8](https://github.com/reload/wsdl-tsclient/compare/v1.8.7...v1.8.8) (2025-12-01)
 
 
