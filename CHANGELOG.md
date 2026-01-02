@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.10](https://github.com/reload/wsdl-tsclient/compare/v1.8.9...v1.8.10) (2026-01-02)
+
+
+### Maintenance
+
+* **deps-dev:** bump globals from 16.5.0 to 17.0.0 ([ab66a89](https://github.com/reload/wsdl-tsclient/commit/ab66a8949ce4c655cb3af81e890727ca9819a23d))
+* **deps-dev:** bump globals from 16.5.0 to 17.0.0 ([ac0b5cc](https://github.com/reload/wsdl-tsclient/commit/ac0b5ccf0feeb7c8886e9bc4dfe7974c951b8ddd))
+* **deps:** bump soap from 1.6.1 to 1.6.2 ([8e26054](https://github.com/reload/wsdl-tsclient/commit/8e26054cfc8538b9c81de932285f6b4498f8986b))
+* **deps:** bump soap from 1.6.1 to 1.6.2 ([658ac82](https://github.com/reload/wsdl-tsclient/commit/658ac82cd69abe7b6f5d2ab034df2b5433b21f6e))
+
 ## [1.8.9](https://github.com/reload/wsdl-tsclient/compare/v1.8.8...v1.8.9) (2026-01-01)
 
 
