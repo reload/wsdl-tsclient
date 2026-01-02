@@ -38,12 +38,13 @@ jobs:
         uses: actions/setup-node@v6
         with:
           registry-url: "https://registry.npmjs.org"
-          node-version: 20
+          node-version: 24
           cache: "npm"
           cache-dependency-path: package-lock.json
 
       - if: ${{ github.event.inputs.publish-release == 'true' || steps.release.outputs.release_created }}
         run: >
+          unset NODE_AUTH_TOKEN &&
           npm ci &&
           npm run build &&
-          NODE_AUTH_TOKEN="" npm publish --provenance --access public
+          npm publish --provenance --access public
