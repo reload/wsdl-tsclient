@@ -44,6 +44,7 @@ jobs:
 
       - if: ${{ github.event.inputs.publish-release == 'true' || steps.release.outputs.release_created }}
         run: >
+          unset NODE_AUTH_TOKEN &&
           npm ci &&
           npm run build &&
           npm publish --provenance --access public
