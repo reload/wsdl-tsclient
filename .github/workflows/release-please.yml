@@ -43,8 +43,6 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - if: ${{ github.event.inputs.publish-release == 'true' || steps.release.outputs.release_created }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: >
           npm ci &&
           npm run build &&
