@@ -44,8 +44,6 @@ jobs:
 
       - if: ${{ github.event.inputs.publish-release == 'true' || steps.release.outputs.release_created }}
         run: >
-          unset NODE_AUTH_TOKEN &&
-          echo "registry=https://registry.npmjs.org/" > "$NPM_CONFIG_USERCONFIG" &&
           npm ci &&
           npm run build &&
-          npm publish --provenance --access public
+          NODE_AUTH_TOKEN="" npm publish --provenance --access public
