@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.13](https://github.com/reload/wsdl-tsclient/compare/v1.8.12...v1.8.13) (2026-02-03)
+
+
+### Maintenance
+
+* **deps:** bump @isaacs/brace-expansion from 5.0.0 to 5.0.1 ([8be199d](https://github.com/reload/wsdl-tsclient/commit/8be199ddcf029597bd74cac3024bb942b126ceaa))
+* **deps:** bump @isaacs/brace-expansion from 5.0.0 to 5.0.1 ([7a5760d](https://github.com/reload/wsdl-tsclient/commit/7a5760de1ea0a12f1807c8c93267d62162556e67))
+
 ## [1.8.12](https://github.com/reload/wsdl-tsclient/compare/v1.8.11...v1.8.12) (2026-02-01)
 
 
