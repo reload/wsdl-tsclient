@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.14](https://github.com/reload/wsdl-tsclient/compare/v1.8.13...v1.8.14) (2026-02-11)
+
+
+### Maintenance
+
+* **deps-dev:** bump @types/node from 25.1.0 to 25.2.3 ([6423df2](https://github.com/reload/wsdl-tsclient/commit/6423df238cc5001c6bf172738c6e8a0d76743f34))
+* **deps-dev:** bump @types/node from 25.1.0 to 25.2.3 ([59af078](https://github.com/reload/wsdl-tsclient/commit/59af078acc97e69f319d7695e07135a9992725da))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([96fb94e](https://github.com/reload/wsdl-tsclient/commit/96fb94edca3ba8eafb9e7d5b50610e44a99f81e0))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 8.54.0 to 8.55.0 ([32fbe3d](https://github.com/reload/wsdl-tsclient/commit/32fbe3d42e24f0d80f6273534d2a0c9120b7b885))
+* **deps-dev:** bump @typescript-eslint/parser from 8.54.0 to 8.55.0 ([e993794](https://github.com/reload/wsdl-tsclient/commit/e993794cf6c1b78642a3dbdf771ea63bb9ea1661))
+* **deps-dev:** bump @typescript-eslint/parser from 8.54.0 to 8.55.0 ([6cb4c0c](https://github.com/reload/wsdl-tsclient/commit/6cb4c0caa4db92974311d5af72bbde5b60602a0b))
+* **deps:** bump axios from 1.13.2 to 1.13.5 ([6b97946](https://github.com/reload/wsdl-tsclient/commit/6b979461adec193b9eb71c555f524364f639cb26))
+* **deps:** bump axios from 1.13.2 to 1.13.5 ([3250c57](https://github.com/reload/wsdl-tsclient/commit/3250c57cd150bcd3becd6d5bfbdc4c05003dc80c))
+
 ## [1.8.13](https://github.com/reload/wsdl-tsclient/compare/v1.8.12...v1.8.13) (2026-02-03)
 
 
