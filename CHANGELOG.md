@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.0](https://github.com/reload/wsdl-tsclient/compare/v1.8.14...v1.9.0) (2026-02-23)
+
+
+### Features
+
+* update some dependencies (using `npm audit fix`) ([de0e250](https://github.com/reload/wsdl-tsclient/commit/de0e2502e2b26f66b201e997f7fd95f2e67c245b))
+* update some dependencies (using `npm update`) ([1eb4d1e](https://github.com/reload/wsdl-tsclient/commit/1eb4d1ef808cb28d82f81d9abcf908ebc13bc0ca))
+* update some dependencies (using `npx npm-check-updates -u`) ([08a7266](https://github.com/reload/wsdl-tsclient/commit/08a72663798419a67785a26f566ff6d0f19567ca))
+
 ## [1.8.14](https://github.com/reload/wsdl-tsclient/compare/v1.8.13...v1.8.14) (2026-02-11)
 
 
