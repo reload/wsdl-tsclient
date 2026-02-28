@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.1](https://github.com/reload/wsdl-tsclient/compare/v1.9.0...v1.9.1) (2026-02-28)
+
+
+### Maintenance
+
+* **deps:** bump minimatch ([e7b29a7](https://github.com/reload/wsdl-tsclient/commit/e7b29a76830388df7e5d0a0d169d279e692cd51c))
+* **deps:** bump minimatch ([3ff7130](https://github.com/reload/wsdl-tsclient/commit/3ff713099f1cfa004b670b922e222f6b36dbb389))
+
 ## [1.9.0](https://github.com/reload/wsdl-tsclient/compare/v1.8.14...v1.9.0) (2026-02-23)
 
 
