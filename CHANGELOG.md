@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.3](https://github.com/reload/wsdl-tsclient/compare/v1.9.2...v1.9.3) (2026-03-21)
+
+
+### Maintenance
+
+* **deps-dev:** bump @eslint/eslintrc from 3.3.4 to 3.3.5 ([26e7265](https://github.com/reload/wsdl-tsclient/commit/26e72655de211f461695fe84dfea369287bc3c58))
+* **deps-dev:** bump @eslint/eslintrc from 3.3.4 to 3.3.5 ([025911b](https://github.com/reload/wsdl-tsclient/commit/025911b77cdc9f045c58342688638ffcadff9283))
+* **deps-dev:** bump @types/node from 25.3.3 to 25.5.0 ([2c9d720](https://github.com/reload/wsdl-tsclient/commit/2c9d7205acd4ce73c9a3898261ed3f4cda46daa5))
+* **deps-dev:** bump @types/node from 25.3.3 to 25.5.0 ([20a7d76](https://github.com/reload/wsdl-tsclient/commit/20a7d76d3e64222728cdca2ea71265fa4b87380f))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([7255545](https://github.com/reload/wsdl-tsclient/commit/7255545e42c8339af6acac0e76ae686fff0ed223))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 8.56.1 to 8.57.1 ([5e030f7](https://github.com/reload/wsdl-tsclient/commit/5e030f721c571e37eb4ff716d0e68ff700f6879d))
+* **deps-dev:** bump eslint from 10.0.2 to 10.1.0 ([8533daa](https://github.com/reload/wsdl-tsclient/commit/8533daaa2edbe716d18e2e3ba95143889b1d60b6))
+* **deps-dev:** bump eslint from 10.0.2 to 10.1.0 ([e34c2dc](https://github.com/reload/wsdl-tsclient/commit/e34c2dc0760c0a9e8cdb58e77668ccdb2de31000))
+* **deps-dev:** bump flatted from 3.3.3 to 3.4.2 ([fbcbb57](https://github.com/reload/wsdl-tsclient/commit/fbcbb570002fa78f245243f8dcd48ba9ca6e8bc2))
+* **deps-dev:** bump flatted from 3.3.3 to 3.4.2 ([09da965](https://github.com/reload/wsdl-tsclient/commit/09da9656490fd432ab3102232e0bf276d0dfaa8f))
+* **deps-dev:** bump globals from 17.3.0 to 17.4.0 ([e368a05](https://github.com/reload/wsdl-tsclient/commit/e368a0563aad0c1cca832e24c4014b3355b86750))
+* **deps-dev:** bump globals from 17.3.0 to 17.4.0 ([beb62f2](https://github.com/reload/wsdl-tsclient/commit/beb62f254bce6357acd64bb9af9a1faa90e48a60))
+* **deps:** bump sanitize-filename from 1.6.3 to 1.6.4 ([521ca4e](https://github.com/reload/wsdl-tsclient/commit/521ca4e2f1f213a31d27e9db46c05de01ce016fc))
+* **deps:** bump sanitize-filename from 1.6.3 to 1.6.4 ([ab1d990](https://github.com/reload/wsdl-tsclient/commit/ab1d990eb04aa857f2eb21b439bacd84267077fd))
+* **deps:** bump soap from 1.7.1 to 1.8.0 ([422f962](https://github.com/reload/wsdl-tsclient/commit/422f962cc22e89c9b5f358be75da4fb776b6f51e))
+* **deps:** bump soap from 1.7.1 to 1.8.0 ([5ac526f](https://github.com/reload/wsdl-tsclient/commit/5ac526f87bcf08ba958651f9afde56c5b7bdbb15))
+
 ## [1.9.2](https://github.com/reload/wsdl-tsclient/compare/v1.9.1...v1.9.2) (2026-03-01)
 
 
