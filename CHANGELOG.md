@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.4](https://github.com/reload/wsdl-tsclient/compare/v1.9.3...v1.9.4) (2026-03-26)
+
+
+### Maintenance
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([dbef835](https://github.com/reload/wsdl-tsclient/commit/dbef835cabd8cc84e565ee3dd52c7e7bf388add7))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 8.57.1 to 8.57.2 ([a4286e3](https://github.com/reload/wsdl-tsclient/commit/a4286e348872ccf46bf2af6c7d15cec1464854f4))
+* **deps-dev:** bump @typescript-eslint/parser from 8.57.1 to 8.57.2 ([c38bafd](https://github.com/reload/wsdl-tsclient/commit/c38bafd7a2c9ddddca0052b0726791c7d40533fb))
+* **deps-dev:** bump @typescript-eslint/parser from 8.57.1 to 8.57.2 ([1492b0f](https://github.com/reload/wsdl-tsclient/commit/1492b0f378400294624492374caa0e74ccaa42fe))
+* **deps:** bump picomatch from 4.0.3 to 4.0.4 ([0558d8e](https://github.com/reload/wsdl-tsclient/commit/0558d8ede8fcf0764bb7dd7134549789779bde9b))
+* **deps:** bump picomatch from 4.0.3 to 4.0.4 ([309c575](https://github.com/reload/wsdl-tsclient/commit/309c5752baa57723c30784808a89e1464b598c72))
+
 ## [1.9.3](https://github.com/reload/wsdl-tsclient/compare/v1.9.2...v1.9.3) (2026-03-21)
 
 
