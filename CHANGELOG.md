@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.5](https://github.com/reload/wsdl-tsclient/compare/v1.9.4...v1.9.5) (2026-03-27)
+
+
+### Maintenance
+
+* **deps:** bump brace-expansion ([ccd7287](https://github.com/reload/wsdl-tsclient/commit/ccd72879fb98155c0e899fd7fe3b360bcb02d9d3))
+* **deps:** bump brace-expansion ([15702e3](https://github.com/reload/wsdl-tsclient/commit/15702e3484deb700b16521e32f65b15cd87cf741))
+
 ## [1.9.4](https://github.com/reload/wsdl-tsclient/compare/v1.9.3...v1.9.4) (2026-03-26)
 
 
