@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.6](https://github.com/reload/wsdl-tsclient/compare/v1.9.5...v1.9.6) (2026-04-02)
+
+
+### Maintenance
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([b1af765](https://github.com/reload/wsdl-tsclient/commit/b1af765d3dc543311a2d16ce25b9a853fed328c4))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 8.57.2 to 8.58.0 ([084eec6](https://github.com/reload/wsdl-tsclient/commit/084eec6b12c332ccf8d594356236a5c8058bfdba))
+* **deps:** bump @xmldom/xmldom from 0.8.11 to 0.8.12 ([e5d62ca](https://github.com/reload/wsdl-tsclient/commit/e5d62ca5e6fded88d9be61d05f7fc9137b9dba32))
+* **deps:** bump @xmldom/xmldom from 0.8.11 to 0.8.12 ([8c5a155](https://github.com/reload/wsdl-tsclient/commit/8c5a1556619001f165c55179af7731731e7dbe49))
+
 ## [1.9.5](https://github.com/reload/wsdl-tsclient/compare/v1.9.4...v1.9.5) (2026-03-27)
 
 
