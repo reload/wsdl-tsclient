@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.7](https://github.com/reload/wsdl-tsclient/compare/v1.9.6...v1.9.7) (2026-04-03)
+
+
+### Maintenance
+
+* **deps-dev:** bump lodash from 4.17.23 to 4.18.1 ([f24613d](https://github.com/reload/wsdl-tsclient/commit/f24613dd002d4aca1af74628745c5b0d078d3aad))
+* **deps-dev:** bump lodash from 4.17.23 to 4.18.1 ([bcc163f](https://github.com/reload/wsdl-tsclient/commit/bcc163f98cf3e7d41c4e27a27746c755cb23c23f))
+
 ## [1.9.6](https://github.com/reload/wsdl-tsclient/compare/v1.9.5...v1.9.6) (2026-04-02)
 
 
