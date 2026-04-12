@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.8](https://github.com/reload/wsdl-tsclient/compare/v1.9.7...v1.9.8) (2026-04-12)
+
+
+### Maintenance
+
+* **deps:** bump axios from 1.13.6 to 1.15.0 ([b13f210](https://github.com/reload/wsdl-tsclient/commit/b13f210907977b19c1472f92691b03f49c02e8df))
+* **deps:** bump axios from 1.13.6 to 1.15.0 ([2f26177](https://github.com/reload/wsdl-tsclient/commit/2f261778716ef38e7b2ec8efcdff96fbb9a4c7c7))
+
 ## [1.9.7](https://github.com/reload/wsdl-tsclient/compare/v1.9.6...v1.9.7) (2026-04-03)
 
 
