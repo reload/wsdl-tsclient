@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.9](https://github.com/reload/wsdl-tsclient/compare/v1.9.8...v1.9.9) (2026-04-15)
+
+
+### Maintenance
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([5037c4b](https://github.com/reload/wsdl-tsclient/commit/5037c4bdb9983b1ddac97d46c0b562bdeade137a))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 8.58.0 to 8.58.2 ([0f9853c](https://github.com/reload/wsdl-tsclient/commit/0f9853ca04b558205b0af4759ac5ea44526a3b2b))
+* **deps-dev:** bump @typescript-eslint/parser from 8.58.0 to 8.58.2 ([094c09f](https://github.com/reload/wsdl-tsclient/commit/094c09f8afc46e3f7c41129f47699ff210cd76ff))
+* **deps-dev:** bump @typescript-eslint/parser from 8.58.0 to 8.58.2 ([206091d](https://github.com/reload/wsdl-tsclient/commit/206091d77611e5e963f24eb8da2c5a612e216bc6))
+* **deps-dev:** bump eslint from 10.1.0 to 10.2.0 ([92b2071](https://github.com/reload/wsdl-tsclient/commit/92b2071937722041a1744a233c4b5815d0859b06))
+* **deps-dev:** bump eslint from 10.1.0 to 10.2.0 ([0eb8f36](https://github.com/reload/wsdl-tsclient/commit/0eb8f36fd08a43af9289a7076588c309127b60bc))
+* **deps:** bump follow-redirects from 1.15.11 to 1.16.0 ([8cd427c](https://github.com/reload/wsdl-tsclient/commit/8cd427c5be75c77860767fdb454d14720f6d4c28))
+* **deps:** bump follow-redirects from 1.15.11 to 1.16.0 ([2bd8c8f](https://github.com/reload/wsdl-tsclient/commit/2bd8c8f0597a798625a41f7db120ed2838912dd0))
+* **deps:** bump ts-morph from 27.0.2 to 28.0.0 ([fe658d2](https://github.com/reload/wsdl-tsclient/commit/fe658d2eae4e681c25b046100d58bca42e6425e2))
+* **deps:** bump ts-morph from 27.0.2 to 28.0.0 ([1349924](https://github.com/reload/wsdl-tsclient/commit/1349924256d27fb9fe86731124a3253c0c49b9b2))
+
 ## [1.9.8](https://github.com/reload/wsdl-tsclient/compare/v1.9.7...v1.9.8) (2026-04-12)
 
 
