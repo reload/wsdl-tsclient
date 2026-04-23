@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.10](https://github.com/reload/wsdl-tsclient/compare/v1.9.9...v1.9.10) (2026-04-23)
+
+
+### Maintenance
+
+* **deps:** bump @xmldom/xmldom from 0.8.12 to 0.8.13 ([0d01fdd](https://github.com/reload/wsdl-tsclient/commit/0d01fdd00b7ba45ce4c3fdcd1c38f309a2672964))
+* **deps:** bump @xmldom/xmldom from 0.8.12 to 0.8.13 ([9e252e1](https://github.com/reload/wsdl-tsclient/commit/9e252e185445133d38b1ee298d5b1c2e5fde7073))
+
 ## [1.9.9](https://github.com/reload/wsdl-tsclient/compare/v1.9.8...v1.9.9) (2026-04-15)
 
 
