@@ -65,6 +65,7 @@ If a change breaks any of these commands, it must be fixed before committing.
 - ✅ Add proper type definitions when needed
 - ✅ Use `skipLibCheck: true` only for declaration files (acceptable)
 - ✅ Keep `noImplicitAny`, `strictFunctionTypes`, etc. enabled
+- ✅ Check for unused code with `npx tsc --noUnusedLocals --noUnusedParameters --noEmit`
 
 ### 4. Follow Best Practices
 
