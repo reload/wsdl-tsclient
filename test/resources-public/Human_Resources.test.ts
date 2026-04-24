@@ -1,25 +1,24 @@
-import test from "tape";
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
 import { existsSync } from "fs";
 import { parseAndGenerate } from "../../src";
 import { Logger } from "../../src/utils/logger";
 
 const target = "Human_Resources";
 
-test(target, async (t) => {
+describe(target, () => {
     Logger.disabled();
     Logger.isWarn = true;
 
     const input = `./test/resources-public/${target}.wsdl`;
     const outdir = "./test/generated";
 
-    t.test(`${target} - generate wsdl client`, async (t) => {
+    it(`${target} - generate wsdl client`, async () => {
         await parseAndGenerate(input, outdir, { maxRecursiveDefinitionName: 85 });
-        t.end();
     });
 
-    t.test(`${target} - check definitions`, async (t) => {
+    it(`${target} - check definitions`, async () => {
         // TODO: Add more definitions to check
-        t.equal(existsSync(`${outdir}/humanresources/definitions/AcademicAppointee.ts`), true);
-        t.end();
+        assert.equal(existsSync(`${outdir}/humanresources/definitions/AcademicAppointee.ts`), true);
     });
 });

@@ -1,23 +1,22 @@
-import test from "tape";
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
 import { parseAndGenerate } from "../../src";
 import { Logger } from "../../src/utils/logger";
 import { typecheck } from "../utils/tsc";
 
 const target = "binding_document";
 
-test(target, async (t) => {
+describe(target, () => {
     Logger.disabled();
 
     const input = `./test/resources/${target}.wsdl`;
     const outdir = "./test/generated";
 
-    t.test(`${target} - generate wsdl client`, async (t) => {
+    it(`${target} - generate wsdl client`, async () => {
         await parseAndGenerate(input, outdir);
-        t.end();
     });
 
-    t.test(`${target} - compile`, async (t) => {
+    it(`${target} - compile`, async () => {
         await typecheck(`${outdir}/bindingdocument/index.ts`);
-        t.end();
     });
 });

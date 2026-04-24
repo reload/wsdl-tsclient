@@ -7,14 +7,11 @@
         "wsdl-tsclient": "dist/src/cli.js"
     },
     "engines": {
-        "node": ">=10.0.0"
+        "node": ">=20.0.0"
     },
     "scripts": {
         "pretest": "rm -rf ./test/generated",
-        "test": "npm run test:node-soap && npm run test:node-soap2 && npm run test:public",
-        "test:node-soap": "ts-node node_modules/tape/bin/tape ./test/node-soap/*.test.ts | tap-mocha-reporter spec",
-        "test:node-soap2": "ts-node node_modules/tape/bin/tape ./test/node-soap/**/*.test.ts | tap-mocha-reporter spec",
-        "test:public": "ts-node node_modules/tape/bin/tape ./test/resources-public/**/*.test.ts | tap-mocha-reporter spec",
+        "test": "node --test --import=tsx test/**/*.test.ts",
         "preversion": "npm test && npm run build",
         "prepublishOnly": "npm test && npm run dist",
         "dev": "ts-node -T ./dev.ts",
@@ -58,7 +55,6 @@
         "@eslint/eslintrc": "^3.3.3",
         "@eslint/js": "^10.0.1",
         "@types/node": "^25.3.0",
-        "@types/tape": "^5.8.1",
         "@types/yargs": "^17.0.35",
         "@typescript-eslint/eslint-plugin": "^8.56.0",
         "@typescript-eslint/parser": "^8.56.0",
@@ -66,9 +62,8 @@
         "eslint-plugin-prettier": "^5.5.5",
         "globals": "^17.3.0",
         "prettier": "^3.8.1",
-        "tap-mocha-reporter": "^5.0.4",
-        "tape": "^5.9.0",
         "ts-node": "^10.9.2",
+        "tsx": "^4.21.0",
         "typescript": "^6.0.3"
     },
     "dependencies": {
@@ -84,8 +79,5 @@
         "doc": "docs",
         "test": "test"
     },
-    "types": "./dist/src/index.d.ts",
-    "overrides": {
-        "glob": "^13.0.0"
-    }
+    "types": "./dist/src/index.d.ts"
 }
