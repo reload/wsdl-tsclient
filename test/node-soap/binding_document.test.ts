@@ -1,5 +1,4 @@
 import { describe, it } from "node:test";
-import assert from "node:assert/strict";
 import { parseAndGenerate } from "../../src";
 import { Logger } from "../../src/utils/logger";
 import { typecheck } from "../utils/tsc";
