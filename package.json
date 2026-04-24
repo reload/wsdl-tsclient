@@ -14,7 +14,7 @@
         "test": "node --test --import=tsx test/**/*.test.ts",
         "preversion": "npm test && npm run build",
         "prepublishOnly": "npm test && npm run dist",
-        "dev": "ts-node -T ./dev.ts",
+        "dev": "tsx ./dev.ts",
         "dist": "tsc",
         "build": "tsc",
         "lint": "eslint",
@@ -62,7 +62,6 @@
         "eslint-plugin-prettier": "^5.5.5",
         "globals": "^17.3.0",
         "prettier": "^3.8.1",
-        "ts-node": "^10.9.2",
         "tsx": "^4.21.0",
         "typescript": "^6.0.3"
     },
