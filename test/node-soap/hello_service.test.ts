@@ -1,4 +1,5 @@
-import test from "tape";
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
 import { existsSync } from "fs";
 import { parseAndGenerate } from "../../src";
 import { Logger } from "../../src/utils/logger";
@@ -6,7 +7,7 @@ import { typecheck } from "../utils/tsc";
 
 const target = "hello_service";
 
-test(target, async (t) => {
+describe(target, () => {
     Logger.disabled();
 
     const input = `./test/resources/${target}.wsdl`;
@@ -21,20 +22,17 @@ test(target, async (t) => {
         "services/HelloService.ts",
     ];
 
-    t.test(`${target} - generate wsdl client`, async (t) => {
+    it(`${target} - generate wsdl client`, async () => {
         await parseAndGenerate(input, outdir);
-        t.end();
     });
 
     expectedFiles.forEach((file) => {
-        t.test(`${target} - ${file} exists`, async (t) => {
-            t.equal(existsSync(`${outdir}/helloservice/${file}`), true);
-            t.end();
+        it(`${target} - ${file} exists`, async () => {
+            assert.equal(existsSync(`${outdir}/helloservice/${file}`), true);
         });
     });
 
-    t.test(`${target} - compile`, async (t) => {
+    it(`${target} - compile`, async () => {
         await typecheck(`${outdir}/helloservice/index.ts`);
-        t.end();
     });
 });
