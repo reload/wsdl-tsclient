@@ -84,5 +84,8 @@
         "doc": "docs",
         "test": "test"
     },
-    "types": "./dist/src/index.d.ts"
+    "types": "./dist/src/index.d.ts",
+    "overrides": {
+        "glob": "^13.0.0"
+    }
 }
