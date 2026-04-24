@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/reload/wsdl-tsclient/compare/v1.9.10...v2.0.0) (2026-04-24)
+
+
+### Bug Fixes
+
+* suppress duplicate definition warnings in tests ([837e6f8](https://github.com/reload/wsdl-tsclient/commit/837e6f830a71cca5516e76485f67c208aabd9dae))
+* use optional parameter in createProperty ([8c4cb2a](https://github.com/reload/wsdl-tsclient/commit/8c4cb2aa3fe46867807c693a97c6e34a48a0e45b))
+
+
+### Documentation
+
+* add unused code checking to AGENTS.md ([d13b9df](https://github.com/reload/wsdl-tsclient/commit/d13b9dfcd827b3690cf831824eb5830a7be58d8a))
+
+
+### Maintenance
+
+* release 2.0.0 ([00941f1](https://github.com/reload/wsdl-tsclient/commit/00941f1cd6846dbc190c3278c5724e3869ea73ca))
+* release 2.0.0 ([c7645a1](https://github.com/reload/wsdl-tsclient/commit/c7645a18ba489e6056dde9b4c252ef95c021ef12))
+
 ## [1.9.10](https://github.com/reload/wsdl-tsclient/compare/v1.9.9...v1.9.10) (2026-04-23)
 
 
