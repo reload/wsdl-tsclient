@@ -8,7 +8,6 @@ const target = "Human_Resources";
 
 describe(target, () => {
     Logger.disabled();
-    Logger.isWarn = true;
 
     const input = `./test/resources-public/${target}.wsdl`;
     const outdir = "./test/generated";
