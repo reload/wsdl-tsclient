@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.1](https://github.com/reload/wsdl-tsclient/compare/v2.0.0...v2.0.1) (2026-05-01)
+
+
+### Maintenance
+
+* **deps-dev:** bump @types/node from 25.5.0 to 25.6.0 ([6352f72](https://github.com/reload/wsdl-tsclient/commit/6352f720032106cb8ec99e574c29e06b8cb05143))
+* **deps-dev:** bump @types/node from 25.5.0 to 25.6.0 ([c4f0c9f](https://github.com/reload/wsdl-tsclient/commit/c4f0c9f87ec37b64dca26c5a11d61faf298b490c))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([2b53311](https://github.com/reload/wsdl-tsclient/commit/2b53311ecce4b99781870483011657019e0ec6f4))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 8.58.2 to 8.59.1 ([f5c7efb](https://github.com/reload/wsdl-tsclient/commit/f5c7efb5c19b480c29f85f71ba301d32e22ec682))
+* **deps-dev:** bump @typescript-eslint/parser from 8.58.2 to 8.59.1 ([d878318](https://github.com/reload/wsdl-tsclient/commit/d8783188c0471e62b07c1bb9eb6f9ae4f6d7e908))
+* **deps-dev:** bump @typescript-eslint/parser from 8.58.2 to 8.59.1 ([4bdd9d8](https://github.com/reload/wsdl-tsclient/commit/4bdd9d868508104c408bc5b538292ebb96fef3f1))
+* **deps-dev:** bump eslint from 10.2.0 to 10.2.1 ([29c319a](https://github.com/reload/wsdl-tsclient/commit/29c319a08758c8130551b3eb801923d19069b91a))
+* **deps-dev:** bump eslint from 10.2.0 to 10.2.1 ([9377dca](https://github.com/reload/wsdl-tsclient/commit/9377dca5dceb87b20f0f85f7c122c7b07ae5fe9b))
+* **deps:** bump googleapis/release-please-action from 4 to 5 ([25409a8](https://github.com/reload/wsdl-tsclient/commit/25409a854eff596cbeffc96ad3aded69cdbfd265))
+* **deps:** bump googleapis/release-please-action from 4 to 5 ([965df19](https://github.com/reload/wsdl-tsclient/commit/965df19ae7c4ddfe376e9e624bda5a40db975c7c))
+* **deps:** bump soap from 1.8.0 to 1.9.1 ([11720f0](https://github.com/reload/wsdl-tsclient/commit/11720f06f4a36eed942899a1ab351c942a7730e4))
+* **deps:** bump soap from 1.8.0 to 1.9.1 ([4b0b5a6](https://github.com/reload/wsdl-tsclient/commit/4b0b5a617d255a17c9831675365bcc4d07474cc3))
+
 ## [2.0.0](https://github.com/reload/wsdl-tsclient/compare/v1.9.10...v2.0.0) (2026-04-24)
 
 
