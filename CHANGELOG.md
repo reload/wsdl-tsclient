@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.6](https://github.com/reload/wsdl-tsclient/compare/v2.0.5...v2.0.6) (2026-06-21)
+
+
+### Maintenance
+
+* **deps-dev:** bump js-yaml from 4.1.1 to 4.2.0 ([7f77871](https://github.com/reload/wsdl-tsclient/commit/7f7787109009f1164843d2c66b875f261b2b90a9))
+* **deps-dev:** bump js-yaml from 4.1.1 to 4.2.0 ([ba56c23](https://github.com/reload/wsdl-tsclient/commit/ba56c232be23707129e12f1ae2de234642d0b759))
+* **deps:** bump form-data from 4.0.5 to 4.0.6 ([22589d9](https://github.com/reload/wsdl-tsclient/commit/22589d90a82af8909e72bfa3584cb0f86210fc8e))
+* **deps:** bump form-data from 4.0.5 to 4.0.6 ([44027cb](https://github.com/reload/wsdl-tsclient/commit/44027cb401ef475adc9e9266358cdff8537cbed6))
+
 ## [2.0.5](https://github.com/reload/wsdl-tsclient/compare/v2.0.4...v2.0.5) (2026-06-13)
 
 
