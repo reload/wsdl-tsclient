@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.9](https://github.com/reload/wsdl-tsclient/compare/v2.0.8...v2.0.9) (2026-08-05)
+
+
+### Maintenance
+
+* **deps:** bump actions/setup-node from 6 to 7 ([271c383](https://github.com/reload/wsdl-tsclient/commit/271c383d5e1f183171b43b0c760ed6f9d5405378))
+* **deps:** bump actions/setup-node from 6 to 7 ([4856a7d](https://github.com/reload/wsdl-tsclient/commit/4856a7de5645cf638a1dca607a5294a979aaccff))
+* **deps:** bump brace-expansion ([289cc52](https://github.com/reload/wsdl-tsclient/commit/289cc5241a4d3b242b575a009370967ffe3ee290))
+* **deps:** bump brace-expansion ([73540fb](https://github.com/reload/wsdl-tsclient/commit/73540fb3c308d2bb1b99388dfa6d4b17496af480))
+
 ## [2.0.8](https://github.com/reload/wsdl-tsclient/compare/v2.0.7...v2.0.8) (2026-07-30)
 
 
