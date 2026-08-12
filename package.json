@@ -1,6 +1,6 @@
 {
     "name": "@reloaddk/wsdl-tsclient",
-    "version": "2.0.9",
+    "version": "2.0.10",
     "description": "Generate typescript soap client with typescript definitions from WSDL file.",
     "main": "dist/src/index.js",
     "bin": {
