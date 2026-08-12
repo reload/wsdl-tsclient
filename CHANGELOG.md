@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.10](https://github.com/reload/wsdl-tsclient/compare/v2.0.9...v2.0.10) (2026-08-12)
+
+
+### Maintenance
+
+* **deps-dev:** bump js-yaml from 4.3.0 to 4.3.1 ([a06e2a8](https://github.com/reload/wsdl-tsclient/commit/a06e2a839fdd604ce2623fbbd2cd6249e9848cb4))
+* **deps-dev:** bump js-yaml from 4.3.0 to 4.3.1 ([824b97b](https://github.com/reload/wsdl-tsclient/commit/824b97b7735ef8c196a1e5b6b241dc2ba957296c))
+
 ## [2.0.9](https://github.com/reload/wsdl-tsclient/compare/v2.0.8...v2.0.9) (2026-08-05)
 
 
