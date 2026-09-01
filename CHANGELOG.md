@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.11](https://github.com/reload/wsdl-tsclient/compare/v2.0.10...v2.0.11) (2026-09-01)
+
+
+### Maintenance
+
+* **deps-dev:** bump @types/node from 26.1.2 to 26.4.0 ([abc5b25](https://github.com/reload/wsdl-tsclient/commit/abc5b25b42031a903a6f8e9b8d1df23932256463))
+* **deps-dev:** bump @types/node from 26.1.2 to 26.4.0 ([26176f1](https://github.com/reload/wsdl-tsclient/commit/26176f147368efbe3cb3e75c98636ca8e6f677ba))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([cf6bb51](https://github.com/reload/wsdl-tsclient/commit/cf6bb51e2f1f49b77f87623f714d0a5b28bbf786))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 8.65.0 to 8.68.0 ([a22d070](https://github.com/reload/wsdl-tsclient/commit/a22d07003303b8f934b7835c7ab07445902f0873))
+* **deps-dev:** bump eslint from 10.8.0 to 10.9.1 ([2a2db4e](https://github.com/reload/wsdl-tsclient/commit/2a2db4e009a92e83ac24da97fc2c5448a813c12f))
+* **deps-dev:** bump eslint from 10.8.0 to 10.9.1 ([051ec92](https://github.com/reload/wsdl-tsclient/commit/051ec92ec098186b126cf068b69ef4cfe4ac2b24))
+* **deps-dev:** bump globals from 17.8.0 to 17.11.0 ([79dd55d](https://github.com/reload/wsdl-tsclient/commit/79dd55d35ea5b2cf04fce7964232628bdb210230))
+* **deps-dev:** bump globals from 17.8.0 to 17.11.0 ([e04b0d9](https://github.com/reload/wsdl-tsclient/commit/e04b0d93c17c452a9ed7806b1f026c6ef5ab3dcf))
+* **deps-dev:** bump tsx from 4.23.1 to 4.23.12 ([1f9f739](https://github.com/reload/wsdl-tsclient/commit/1f9f739dfbd84febe26d22f176d4b7d4e7359df9))
+* **deps-dev:** bump tsx from 4.23.1 to 4.23.12 ([0b72477](https://github.com/reload/wsdl-tsclient/commit/0b724772e2ec211c9aecbe3c670b70ed4fb3011e))
+* **deps:** bump chalk from 5.6.2 to 6.0.0 ([276e511](https://github.com/reload/wsdl-tsclient/commit/276e5115bc931964483f7ce91f7696cf3b0a0c30))
+* **deps:** bump chalk from 5.6.2 to 6.0.0 ([cd5c693](https://github.com/reload/wsdl-tsclient/commit/cd5c69300b124bd3a515bdbbdb482e14e9045a93))
+* **deps:** bump soap from 1.10.0 to 1.11.0 ([4286fa5](https://github.com/reload/wsdl-tsclient/commit/4286fa5a7a2ce8d174f01703946d79e68e637e74))
+* **deps:** bump soap from 1.10.0 to 1.11.0 ([4aec609](https://github.com/reload/wsdl-tsclient/commit/4aec609f39987c1738c2eb91b99b9e9489f70790))
+* **deps:** bump supports-color from 10.2.2 to 11.0.0 ([d1d1d2a](https://github.com/reload/wsdl-tsclient/commit/d1d1d2a48b122a9c2f30b360f975cda4ec833a74))
+* **deps:** bump supports-color from 10.2.2 to 11.0.0 ([acaff17](https://github.com/reload/wsdl-tsclient/commit/acaff178c00add78f122510390ff412ea3ddf0f5))
+
 ## [2.0.10](https://github.com/reload/wsdl-tsclient/compare/v2.0.9...v2.0.10) (2026-08-12)
 
 
