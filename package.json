@@ -70,7 +70,7 @@
         "chalk": "^5.6.2",
         "sanitize-filename": "^1.6.3",
         "soap": "^1.7.1",
-        "supports-color": "^10.2.2",
+        "supports-color": "^11.0.0",
         "ts-morph": "^28.0.0",
         "yargs": "^18.0.0"
     },
