@@ -7,7 +7,7 @@
         "wsdl-tsclient": "dist/src/cli.js"
     },
     "engines": {
-        "node": ">=20.0.0"
+        "node": ">=24.0.0"
     },
     "scripts": {
         "pretest": "rm -rf ./test/generated",

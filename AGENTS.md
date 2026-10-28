@@ -133,19 +133,19 @@ Provide clear guidance for users upgrading.
 ### Technology Stack
 
 - **TypeScript**: Version 6+ (keep up to date)
-- **Node.js**: Version 20+ (current LTS)
+- **Node.js**: Version 24+ (LTS, see `.nvmrc`)
 - **Test Framework**: Node.js built-in test runner (`node:test`)
 - **Linting**: ESLint with TypeScript support
 - **Code Style**: Prettier
 
 ### Node.js Version Policy
 
-This project requires **Node.js 20 or later**. When considering updates:
+This project requires **Node.js 24 or later**. The `.nvmrc` file sets the version for local development and CI. When considering updates:
 
 - ✅ We can update to newer LTS versions
 - ✅ We prefer current or active LTS versions
 - ❌ Don't support EOL versions of Node.js
-- ℹ️ Node 10-18 are all EOL as of 2024-2026
+- ℹ️ Node 10-20 are all EOL as of 2024-2026
 
 ### Testing Philosophy
 
