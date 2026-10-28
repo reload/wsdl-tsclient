@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0](https://github.com/reload/wsdl-tsclient/compare/v2.0.15...v3.0.0) (2026-10-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* The package now requires Node.js 24 or later. If you use an older Node.js version, upgrade to Node.js 24 before you update this package.
+
+### Features
+
+* require Node.js 24 ([edc2b08](https://github.com/reload/wsdl-tsclient/commit/edc2b08705a875763a949047989b0ae79a4ddefd))
+* require Node.js 24 ([b368d6c](https://github.com/reload/wsdl-tsclient/commit/b368d6c5326e7a7f8b5d5ec972abe4e7efcd8f4a))
+
 ## [2.0.15](https://github.com/reload/wsdl-tsclient/compare/v2.0.14...v2.0.15) (2026-10-22)
 
 
