@@ -12,9 +12,9 @@ describe("ts-morph glob matching", () => {
 
         const files = project.getSourceFiles(["/src/**/*.ts", "!**/ignored.ts"]);
 
-        assert.deepEqual(
-            files.map((file) => file.getFilePath()).sort(),
-            ["/src/client.ts", "/src/definitions/Request.ts"],
-        );
+        assert.deepEqual(files.map((file) => file.getFilePath()).sort(), [
+            "/src/client.ts",
+            "/src/definitions/Request.ts",
+        ]);
     });
 });
