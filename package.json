@@ -52,7 +52,6 @@
     },
     "homepage": "https://github.com/reload/wsdl-tsclient#readme",
     "devDependencies": {
-        "@eslint/eslintrc": "^3.3.3",
         "@eslint/js": "^10.0.1",
         "@types/node": "^26.1.0",
         "@types/yargs": "^17.0.35",
@@ -78,5 +77,8 @@
         "doc": "docs",
         "test": "test"
     },
-    "types": "./dist/src/index.d.ts"
+    "types": "./dist/src/index.d.ts",
+    "overrides": {
+        "minimatch@^10": "^11.0.1"
+    }
 }
